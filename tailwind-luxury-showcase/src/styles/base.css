@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-midnight text-gray-200 antialiased;
+    background-image: radial-gradient(circle at 25% 0%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+  }
+  h1, h2, h3, .font-serif {
+    @apply font-serif;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1a0c21;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #D4AF37;
+    border-radius: 8px;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl transition-all duration-300;
+  }
+  .glass-card:hover {
+    @apply border-gold-500/60 shadow-gold/30 shadow-xl -translate-y-1;
+  }
+  .btn-gold {
+    @apply bg-gradient-to-r from-gold-500 to-gold-700 text-black font-semibold px-6 py-2 rounded-full hover:shadow-gold/50 hover:shadow-lg transition-all;
+  }
+  .text-gold-gradient {
+    @apply bg-gradient-to-r from-gold-300 via-gold-500 to-gold-700 bg-clip-text text-transparent;
+  }
+}
