@@ -7,7 +7,8 @@
     @apply bg-midnight text-gray-200 antialiased;
     background-image: radial-gradient(circle at 25% 0%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
   }
-  h1, h2, h3, .font-serif {
+  /* Apply serif font only to headings, not to the .font-serif class */
+  h1, h2, h3 {
     @apply font-serif;
   }
   ::-webkit-scrollbar {
