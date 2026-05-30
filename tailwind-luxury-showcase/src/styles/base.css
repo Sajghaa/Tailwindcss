@@ -27,10 +27,10 @@
     @apply backdrop-blur-md bg-white/5 border border-white/10 rounded-2xl transition-all duration-300;
   }
   .glass-card:hover {
-    @apply border-gold-500/60 shadow-gold/30 shadow-xl -translate-y-1;
+    @apply border-gold-500/60 shadow-xl -translate-y-1;
   }
   .btn-gold {
-    @apply bg-gradient-to-r from-gold-500 to-gold-700 text-black font-semibold px-6 py-2 rounded-full hover:shadow-gold/50 hover:shadow-lg transition-all;
+    @apply bg-gradient-to-r from-gold-500 to-gold-700 text-black font-semibold px-6 py-2 rounded-full hover:shadow-lg transition-all;
   }
   .text-gold-gradient {
     @apply bg-gradient-to-r from-gold-300 via-gold-500 to-gold-700 bg-clip-text text-transparent;
