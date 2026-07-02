@@ -19,7 +19,6 @@ function renderRoute() {
   document.getElementById('app').innerHTML = Component();
 }
 
-// Dark mode toggle
 function initDarkMode() {
   const html = document.documentElement;
   const toggle = document.getElementById('darkModeToggle');
@@ -36,10 +35,8 @@ function initDarkMode() {
   });
 }
 
-// Router + dark mode init
 window.addEventListener('hashchange', () => {
   renderRoute();
-  // re‑attach dark mode listener after re‑render
   setTimeout(initDarkMode, 0);
 });
 
