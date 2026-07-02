@@ -11,7 +11,6 @@ const features = [
 
 export function Home() {
   const content = `
-    <!-- Hero -->
     <section class="relative overflow-hidden pt-20 pb-32 px-4">
       <div class="absolute inset-0 bg-gradient-to-br from-primary-500/10 via-transparent to-accent/10 pointer-events-none"></div>
       <div class="max-w-4xl mx-auto text-center relative z-10">
@@ -28,7 +27,6 @@ export function Home() {
       </div>
     </section>
 
-    <!-- Features -->
     <section id="features" class="py-20 px-4">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-14">
@@ -41,7 +39,6 @@ export function Home() {
       </div>
     </section>
 
-    <!-- Pricing (simple) -->
     <section id="pricing" class="py-20 px-4 bg-gray-50 dark:bg-gray-900/30">
       <div class="max-w-5xl mx-auto text-center">
         <h2 class="text-3xl sm:text-4xl font-bold">Simple, <span class="text-gradient">transparent</span> pricing</h2>
@@ -62,11 +59,10 @@ export function Home() {
       </div>
     </section>
 
-    <!-- Contact -->
     <section id="contact" class="py-20 px-4">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl sm:text-4xl font-bold">Get in <span class="text-gradient">touch</span></h2>
-        <p class="mt-3 text-gray-600 dark:text-gray-300">We’d love to hear from you.</p>
+        <p class="mt-3 text-gray-600 dark:text-gray-300">We'd love to hear from you.</p>
         <form class="mt-8 glass p-8 rounded-2xl text-left">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <input type="text" placeholder="Name" class="bg-transparent border border-gray-300 dark:border-gray-700 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary-500" />
