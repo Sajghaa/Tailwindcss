@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth bg-dark-bg text-gray-200;
+  }
+  body {
+    @apply bg-dark-bg text-gray-200;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neon-blue/60 rounded-full;
+  }
+}
